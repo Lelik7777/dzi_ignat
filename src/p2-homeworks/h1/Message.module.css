@@ -1,0 +1,23 @@
+.hw1 {
+    background-color: gold;
+}
+
+.message {
+    display: flex;
+    margin: 20px;
+    align-items: end;
+}
+
+.message img {
+    height: 100px;
+    border-radius: 50px;
+    margin-right: 30px;
+}
+
+.message .bodyMes {
+    background-color: #282c34;
+    width: 450px;
+    height: 150px;
+    border-radius: 20px;
+
+}
