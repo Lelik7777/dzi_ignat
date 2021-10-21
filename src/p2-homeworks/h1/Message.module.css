@@ -14,10 +14,42 @@
     margin-right: 30px;
 }
 
+.corner {
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid #282c34;
+    border-left: 20px solid transparent;
+}
+
 .message .bodyMes {
     background-color: #282c34;
     width: 450px;
     height: 150px;
-    border-radius: 20px;
-
+    border-radius: 20px 20px 20px 0;
+    padding: 20px;
+    font-size: 1.3rem;
 }
+
+.name {
+    color: yellow;
+    height: 30%;
+    font-size: 2rem;
+    padding-left: 30px;
+}
+
+.text {
+    height: 60%;
+    color: #fff;
+    width: 90%;
+}
+
+.text::first-letter {
+    padding-left: 10px;
+    font-size: 1.5rem;
+}
+
+.time {
+    text-align: right;
+    color: darkorange;
+}
+
