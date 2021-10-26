@@ -1,3 +1,12 @@
-.someClass {
-
+.affairs {
+margin: 20px;
+}
+.affairs>div{
+    margin: 5px;
+}
+.affairs button{
+    margin-right: 5px;
+}
+.affairs .affair button{
+    margin-left: 5px;
 }
