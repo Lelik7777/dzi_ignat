@@ -1,0 +1,19 @@
+.listBook {
+    margin: 20px;
+}
+
+.book {
+    margin: 10px;
+}
+
+.book button {
+    margin-left: 5px;
+}
+
+.book img {
+    width: 50px;
+}
+
+.button {
+    margin-right: 5px;
+}
