@@ -64,9 +64,9 @@ function HW2() {
             <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeAffairs/>*/}
+
             <hr/>
         </div>
     )
 }
-
 export default HW2
