@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
 import Affairs from './Affairs'
-import {ListBooks} from './listBooks/ListBooks';
-import imgB from './img/bun.jpeg';
-import img2H from './img/html&css.jpeg';
-import imgJ from './img/js.jpeg';
+import {ListBooks} from './listBooks(alternative)/ListBooks';
+import imgB from './listBooks(alternative)/img/bun.jpeg';
+import img2H from './listBooks(alternative)/img/html&css.jpeg';
+import imgJ from './listBooks(alternative)/img/js.jpeg';
 
 // types
 export type AffairPriorityType = 'low' | 'middle' | 'high';// need to fix any
