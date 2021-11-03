@@ -1,1 +1,47 @@
+.alternativeGreeting ul {
+    width: 25%;
+    margin: 0;
+}
 
+.alternativeGreeting ul li {
+    list-style-type: none;
+}
+
+.span_name {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+}
+
+.span_date {
+    display: inline-block;
+    width: 65%;
+    text-align: right;
+}
+
+.text {
+    color: blue;
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+.present {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error_message {
+    color: red;
+    font-size: 1.3rem;
+    margin-bottom: 1%;
+}
+
+input {
+    border-top: none;
+}
+
+input::placeholder {
+    color: gainsboro;
+    font-size: 1.1rem;
+}

@@ -1,11 +1,18 @@
 import React from 'react';
 import o from './AlternativeGreeting.module.css';
-import {ComponentContainer} from './ComponentContainer';
+import {ContainerComponent} from './ContainerComponent';
+import {UserType} from '../HW3';
 
-export const AlternativeGreeting = () => {
+type PropsType = {
+    users: UserType[];
+    addAlternativeUsers: (n: string) => void;
+}
+export const AlternativeGreeting = ({addAlternativeUsers, users}: PropsType) => {
     return (
         <div className={o.alternativeGreeting}>
-            <ComponentContainer/>
+            <ContainerComponent
+                addAlternativeUsers={addAlternativeUsers}
+                data={users}/>
         </div>
     );
 }
