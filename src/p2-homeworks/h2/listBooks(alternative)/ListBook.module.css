@@ -1,9 +1,12 @@
 .listBook {
     margin: 20px;
+    width: 40%;
 }
 
 .book {
     margin: 10px;
+    text-align: right;
+    width: 50%;
 }
 
 .book button {
