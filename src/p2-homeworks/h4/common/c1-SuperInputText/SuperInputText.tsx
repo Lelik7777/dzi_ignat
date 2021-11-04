@@ -13,6 +13,13 @@ type SuperInputTextPropsType = DefaultInputPropsType & { // и + ещё проп
     spanClassName?: string
 }
 
+const SuperInput = ({type,onChange,onChangeText,onKeyPress,onEnter,error,className,spanClassName}:SuperInputTextPropsType) => {
+  return(
+      <>
+          <input type="text "/>
+      </>
+)
+}
 const SuperInputText: React.FC<SuperInputTextPropsType> = (
     {
         type, // достаём и игнорируем чтоб нельзя было задать другой тип инпута
@@ -21,7 +28,8 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
         error,
         className, spanClassName,
 
-        ...restProps// все остальные пропсы попадут в объект restProps
+        ...restProps// все остальные пропсы попадут в объект restProps,
+
     }
 ) => {
     const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
