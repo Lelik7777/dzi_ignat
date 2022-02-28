@@ -33,6 +33,7 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
 
     }
 ) => {
+    console.log('rendering inputText');
     const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
         onChange // если есть пропс onChange
         && onChange(e) // то передать ему е (поскольку onChange не обязателен)

@@ -16,7 +16,7 @@ type PropsType = {
 export const PresentComponent = ({data, callBack1, callBack2, callBack3, value, error}: PropsType) => {
     return (
         <div className={o.present}>
-            <div>
+            <div style={{display:'flex'}}>
                 <Input type={'text'}
                        callBack={callBack2}
                        value={value}

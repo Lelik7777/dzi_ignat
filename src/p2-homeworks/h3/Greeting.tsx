@@ -17,10 +17,12 @@ const Greeting: React.FC<GreetingPropsType> = (
 
     return (
         <div>
-            <input value={name} onChange={setNameCallback} className={inputClass}/>
-            <span>{error}</span>
-            <button onClick={addUser}>add</button>
-            <span>{totalUsers}</span>
+            <div style={{display:'flex'}}>
+                <input value={name} onChange={setNameCallback} className={inputClass}/>
+                <button onClick={addUser}>add</button>
+                <span className={s.total}>{totalUsers}</span>
+            </div>
+            <div><span className={s.errorS}>{error}</span></div>
         </div>
     )
 }

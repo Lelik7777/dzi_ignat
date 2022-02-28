@@ -29,7 +29,7 @@ const SuperCheckbox: React.FC<SuperCheckboxPropsType> = (
     const finalInputClassName = `${s.checkbox} ${className ? className : ''}`
 
     return (
-       /* <label>
+        <label>
             <input
                 type={'checkbox'}
                 onChange={onChangeCallback}
@@ -38,15 +38,8 @@ const SuperCheckbox: React.FC<SuperCheckboxPropsType> = (
                 {...restProps} // отдаём инпуту остальные пропсы если они есть (checked например там внутри)
             />
             {children && <span className={s.spanClassName}>{children}</span>}
-        </label>*/ // благодаря label нажатие на спан передастся в инпут
-        <>
-            <input
-            className={s.custom_checkbox}
-            type="checkbox"
-            id={'color1'}
-            />
-            <label htmlFor={'color1'}></label>
-        </>
+        </label> // благодаря label нажатие на спан передастся в инпут
+
     )
 }
 

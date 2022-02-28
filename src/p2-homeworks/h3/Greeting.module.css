@@ -5,3 +5,13 @@
 .error {
     border: 3px solid red;
 }
+.total{
+    color: blue;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    padding: 2px;
+}
+.errorS{
+    margin: 0 5px;
+    color: red;
+}
