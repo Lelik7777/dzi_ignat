@@ -1,5 +1,6 @@
 {
   "name": "dzi_ignat",
+  "homepage": "https://Lelik7777.github.io/dzi_ignat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +19,7 @@
     "uuid": "^8.3.2",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "https://Lelik7777.github.io/dz-ignat",
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
