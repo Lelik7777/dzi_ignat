@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Lelik7777/static/css/main.fbec7b03.chunk.css",
-    "main.js": "/Lelik7777/static/js/main.3fda5eef.chunk.js",
-    "main.js.map": "/Lelik7777/static/js/main.3fda5eef.chunk.js.map",
-    "runtime-main.js": "/Lelik7777/static/js/runtime-main.d6eb9746.js",
-    "runtime-main.js.map": "/Lelik7777/static/js/runtime-main.d6eb9746.js.map",
-    "static/js/2.daf10c52.chunk.js": "/Lelik7777/static/js/2.daf10c52.chunk.js",
-    "static/js/2.daf10c52.chunk.js.map": "/Lelik7777/static/js/2.daf10c52.chunk.js.map",
-    "index.html": "/Lelik7777/index.html",
-    "static/css/main.fbec7b03.chunk.css.map": "/Lelik7777/static/css/main.fbec7b03.chunk.css.map",
-    "static/js/2.daf10c52.chunk.js.LICENSE.txt": "/Lelik7777/static/js/2.daf10c52.chunk.js.LICENSE.txt",
-    "static/media/avatar_1634803710085.e79792a7.png": "/Lelik7777/static/media/avatar_1634803710085.e79792a7.png",
-    "static/media/avatar_1634803732159.27464bf2.png": "/Lelik7777/static/media/avatar_1634803732159.27464bf2.png",
-    "static/media/avatar_1634803761499.453f9dcc.png": "/Lelik7777/static/media/avatar_1634803761499.453f9dcc.png",
-    "static/media/avatar_1634804341103.73a79472.png": "/Lelik7777/static/media/avatar_1634804341103.73a79472.png",
-    "static/media/html&css.a9205d6c.jpeg": "/Lelik7777/static/media/html&css.a9205d6c.jpeg",
-    "static/media/js.0e779781.jpeg": "/Lelik7777/static/media/js.0e779781.jpeg"
+    "main.css": "/dz-ignat/static/css/main.fbec7b03.chunk.css",
+    "main.js": "/dz-ignat/static/js/main.2ae519ff.chunk.js",
+    "main.js.map": "/dz-ignat/static/js/main.2ae519ff.chunk.js.map",
+    "runtime-main.js": "/dz-ignat/static/js/runtime-main.c3e0e62f.js",
+    "runtime-main.js.map": "/dz-ignat/static/js/runtime-main.c3e0e62f.js.map",
+    "static/js/2.daf10c52.chunk.js": "/dz-ignat/static/js/2.daf10c52.chunk.js",
+    "static/js/2.daf10c52.chunk.js.map": "/dz-ignat/static/js/2.daf10c52.chunk.js.map",
+    "index.html": "/dz-ignat/index.html",
+    "static/css/main.fbec7b03.chunk.css.map": "/dz-ignat/static/css/main.fbec7b03.chunk.css.map",
+    "static/js/2.daf10c52.chunk.js.LICENSE.txt": "/dz-ignat/static/js/2.daf10c52.chunk.js.LICENSE.txt",
+    "static/media/avatar_1634803710085.e79792a7.png": "/dz-ignat/static/media/avatar_1634803710085.e79792a7.png",
+    "static/media/avatar_1634803732159.27464bf2.png": "/dz-ignat/static/media/avatar_1634803732159.27464bf2.png",
+    "static/media/avatar_1634803761499.453f9dcc.png": "/dz-ignat/static/media/avatar_1634803761499.453f9dcc.png",
+    "static/media/avatar_1634804341103.73a79472.png": "/dz-ignat/static/media/avatar_1634804341103.73a79472.png",
+    "static/media/html&css.a9205d6c.jpeg": "/dz-ignat/static/media/html&css.a9205d6c.jpeg",
+    "static/media/js.0e779781.jpeg": "/dz-ignat/static/media/js.0e779781.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d6eb9746.js",
+    "static/js/runtime-main.c3e0e62f.js",
     "static/js/2.daf10c52.chunk.js",
     "static/css/main.fbec7b03.chunk.css",
-    "static/js/main.3fda5eef.chunk.js"
+    "static/js/main.2ae519ff.chunk.js"
   ]
 }
